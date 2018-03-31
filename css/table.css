@@ -473,7 +473,7 @@ ul.triangle-small li a,
 ul.triangle li a,
 ul.triangle-large li { font-size: 100%; line-height: 1.7em; }
 
-ul.checkmark li:after { content: ""; display: block; width: 4px; height: 8px; border-color: #fff; border-style: solid; border-width: 0 3px 3px 0; position: absolute; left: 14px; top: 3px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); }
+ul.checkmark li:after { content: ""; display: block; width: 4px; height: 8px; border-color: #000000; border-style: solid; border-width: 0 3px 3px 0; position: absolute; left: 14px; top: 3px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); }
 
 ul.circle-checkmark li:before { content: ""; display: block; border-color: #fff; border-style: solid; border-width: 9px; border-radius: 9px; height: 0; width: 0; position: absolute; left: 7px; top: 1px; }
 

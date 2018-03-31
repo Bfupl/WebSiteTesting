@@ -692,6 +692,12 @@ a {
   margin: 0;
   padding: 0;
 }
+#price .pricing__title_small {
+  font-size: 1.5em;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 #price .pricing__price {
   font-size: 1.45em;
