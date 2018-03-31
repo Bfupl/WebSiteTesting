@@ -442,6 +442,7 @@ body.sidebar-b-right .hr { background-image: url(../images/hr.png); }
 /* Standard List Styles */
 
 ul.checkmark,
+ul.checkmark-head,
 ul.circle-checkmark,
 ul.square-checkmark,
 ul.circle-small,
@@ -453,6 +454,7 @@ ul.triangle-large,
 ul.bullet { margin: 0 0 15px 0; padding: 0; }
 
 ul.checkmark li,
+ul.checkmark-head li,
 ul.circle-checkmark li,
 ul.square-checkmark li,
 ul.circle-small li,
@@ -464,6 +466,7 @@ ul.triangle-large li,
 ul.bullet li { list-style-type: none; padding: 0 0 0 30px; position: relative; margin-bottom: 8px; }
 
 ul.checkmark li a,
+ul.checkmark-head li a ,
 ul.circle-checkmark li a,
 ul.square-checkmark li a,
 ul.circle-small li a,
@@ -474,7 +477,7 @@ ul.triangle li a,
 ul.triangle-large li { font-size: 100%; line-height: 1.7em; }
 
 ul.checkmark li:after { content: ""; display: block; width: 4px; height: 8px; border-color: #000000; border-style: solid; border-width: 0 3px 3px 0; position: absolute; left: 14px; top: 3px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); }
-
+ul.checkmark-head li:after { content: ""; display: block; width: 4px; height: 8px; border-color: #ffffff; border-style: solid; border-width: 0 3px 3px 0; position: absolute; left: 14px; top: 3px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); }
 ul.circle-checkmark li:before { content: ""; display: block; border-color: #fff; border-style: solid; border-width: 9px; border-radius: 9px; height: 0; width: 0; position: absolute; left: 7px; top: 1px; }
 
 ul.circle-checkmark li:after { content: ""; display: block; width: 3px; height: 6px; border-color: #000; border-width: 0 2px 2px 0; border-style: solid; position: absolute; left: 14px; top: 5px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); }
